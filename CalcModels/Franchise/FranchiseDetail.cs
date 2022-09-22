@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalcData
+namespace CalcModels.Franchise
 {
-    public class Franchise
+    public class FranchiseDetail
     {
         public int FranchiseId { get; set; }
         public string FranchiseName { get; set; }
@@ -25,6 +25,5 @@ namespace CalcData
         public int DistanceBetweenClients { get; set; }
         public int DistanceToLandfill { get; set; }
         public int DistanceToHauler { get; set; }
-
     }
 }

@@ -4,16 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalcData
+namespace CalcModels.Franchise
 {
-    public class Franchise
+    public class EditFranchise
     {
         public int FranchiseId { get; set; }
         public string FranchiseName { get; set; }
-        public string State { get; set; }
-        public int Zips { get; set; }
-        public DateTimeOffset CreatedUtc { get; set; }
-        public DateTimeOffset ModifiedUtc { get; set; }
+        public int FranchiseeId { get; set; }
         public enum Compaction
         {
             Low,
@@ -25,6 +22,5 @@ namespace CalcData
         public int DistanceBetweenClients { get; set; }
         public int DistanceToLandfill { get; set; }
         public int DistanceToHauler { get; set; }
-
     }
 }

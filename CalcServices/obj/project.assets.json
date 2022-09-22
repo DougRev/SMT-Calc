@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "CalcData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CalcData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalcData.dll": {}
+        }
+      },
+      "CalcModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CalcModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalcModels.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CalcData/1.0.0": {
+      "type": "project",
+      "path": "../CalcData/CalcData.csproj",
+      "msbuildProject": "../CalcData/CalcData.csproj"
+    },
+    "CalcModels/1.0.0": {
+      "type": "project",
+      "path": "../CalcModels/CalcModels.csproj",
+      "msbuildProject": "../CalcModels/CalcModels.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "CalcData >= 1.0.0",
+      "CalcModels >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Doug Revell\\.nuget\\packages\\": {}
@@ -33,7 +68,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Doug Revell\\source\\repos\\SMT-Calc\\CalcData\\CalcData.csproj": {
+              "projectPath": "C:\\Users\\Doug Revell\\source\\repos\\SMT-Calc\\CalcData\\CalcData.csproj"
+            },
+            "C:\\Users\\Doug Revell\\source\\repos\\SMT-Calc\\CalcModels\\CalcModels.csproj": {
+              "projectPath": "C:\\Users\\Doug Revell\\source\\repos\\SMT-Calc\\CalcModels\\CalcModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
