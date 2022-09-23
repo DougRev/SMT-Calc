@@ -12,5 +12,6 @@ namespace CalcModels.Franchisee
         public string OwnerFirst { get; set; }
         public string OwnerLast { get; set; }
         public DateTimeOffset CreatedUtc { get; set; }
+        public DateTimeOffset ModifiedUtc { get; set; }
     }
 }

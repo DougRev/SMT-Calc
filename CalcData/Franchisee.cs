@@ -12,6 +12,7 @@ namespace CalcData
     {
         [Key]
         public int FranchiseeId { get; set; }
+        public Guid OwnerId { get; set; }
         public string OwnerFirst { get; set; }
         public string OwnerLast { get; set; }
         public List<Franchise> FranchisesOwned {get; set;} 

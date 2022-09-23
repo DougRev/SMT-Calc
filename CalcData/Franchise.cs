@@ -9,6 +9,8 @@ namespace CalcData
     public class Franchise
     {
         public int FranchiseId { get; set; }
+        public Guid OwnerId { get; set; }
+        public int FranchiseeId { get; set; }
         public string FranchiseName { get; set; }
         public string State { get; set; }
         public int Zips { get; set; }
