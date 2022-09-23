@@ -1,0 +1,10 @@
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashModels\bin\Debug\netstandard2.0\SmashModels.deps.json
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashModels\bin\Debug\netstandard2.0\SmashModels.dll
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashModels\bin\Debug\netstandard2.0\SmashModels.pdb
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashModels\obj\Debug\netstandard2.0\SmashModels.csproj.AssemblyReference.cache
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashModels\obj\Debug\netstandard2.0\SmashModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashModels\obj\Debug\netstandard2.0\SmashModels.AssemblyInfoInputs.cache
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashModels\obj\Debug\netstandard2.0\SmashModels.AssemblyInfo.cs
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashModels\obj\Debug\netstandard2.0\SmashModels.csproj.CoreCompileInputs.cache
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashModels\obj\Debug\netstandard2.0\SmashModels.dll
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashModels\obj\Debug\netstandard2.0\SmashModels.pdb

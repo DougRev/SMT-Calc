@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Smash_Calc.Models;
+using SmashData;
 
 namespace Smash_Calc.Controllers
 {

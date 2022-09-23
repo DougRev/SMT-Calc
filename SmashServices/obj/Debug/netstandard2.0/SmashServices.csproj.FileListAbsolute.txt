@@ -1,0 +1,15 @@
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\bin\Debug\netstandard2.0\SmashServices.deps.json
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\bin\Debug\netstandard2.0\SmashServices.dll
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\bin\Debug\netstandard2.0\SmashServices.pdb
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\bin\Debug\netstandard2.0\SmashData.dll
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\bin\Debug\netstandard2.0\SmashModels.dll
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\bin\Debug\netstandard2.0\SmashData.pdb
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\bin\Debug\netstandard2.0\SmashModels.pdb
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\obj\Debug\netstandard2.0\SmashServices.csproj.AssemblyReference.cache
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\obj\Debug\netstandard2.0\SmashServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\obj\Debug\netstandard2.0\SmashServices.AssemblyInfoInputs.cache
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\obj\Debug\netstandard2.0\SmashServices.AssemblyInfo.cs
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\obj\Debug\netstandard2.0\SmashServices.csproj.CoreCompileInputs.cache
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\obj\Debug\netstandard2.0\SmashServices.csproj.CopyComplete
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\obj\Debug\netstandard2.0\SmashServices.dll
+C:\Users\Doug Revell\source\repos\SMT-Calc\SmashServices\obj\Debug\netstandard2.0\SmashServices.pdb

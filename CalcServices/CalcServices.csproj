@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CalcData\CalcData.csproj" />
+    <ProjectReference Include="..\CalcModels\CalcModels.csproj" />
+  </ItemGroup>
+
 </Project>

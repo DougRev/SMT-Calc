@@ -1,0 +1,14 @@
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\bin\Debug\net6.0\CalcData.deps.json
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\bin\Debug\net6.0\CalcData.dll
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\bin\Debug\net6.0\CalcData.pdb
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\obj\Debug\net6.0\CalcData.csproj.AssemblyReference.cache
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\obj\Debug\net6.0\CalcData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\obj\Debug\net6.0\CalcData.AssemblyInfoInputs.cache
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\obj\Debug\net6.0\CalcData.AssemblyInfo.cs
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\obj\Debug\net6.0\CalcData.csproj.CoreCompileInputs.cache
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\obj\Debug\net6.0\CalcData.dll
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\obj\Debug\net6.0\refint\CalcData.dll
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\obj\Debug\net6.0\CalcData.pdb
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\obj\Debug\net6.0\ref\CalcData.dll
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\bin\Debug\net6.0\CalcData.runtimeconfig.json
+C:\Users\Doug Revell\source\repos\SMT-Calc\CalcData\obj\Debug\net6.0\CalcData.genruntimeconfig.cache

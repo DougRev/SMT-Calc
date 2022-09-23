@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fd7vPSwqrF40rTuAB1XedQs5Q24Mwcu9zr01itaHT6XzcQ+jOB/8fd3awXgDY+lRqFRnykxtBq43BNLfKU+3Tg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Doug Revell\\source\\repos\\SMT-Calc\\ClassLibrary1\\ClassLibrary1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Doug Revell\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Doug Revell\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
