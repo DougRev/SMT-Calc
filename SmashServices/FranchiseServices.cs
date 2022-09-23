@@ -49,6 +49,8 @@ namespace SmashServices
                 {
                     FranchiseId = entity.FranchiseId,
                     FranchiseName = entity.FranchiseName,
+                    State = entity.State,
+                    Zips = entity.Zips,
                     CreatedUtc = entity.CreatedUtc,
                     ModifiedUtc = entity.ModifiedUtc
                 };
@@ -98,7 +100,6 @@ namespace SmashServices
                 ctx.Franchise.Remove(entity);
                 return ctx.SaveChanges() == 1;
             }
-
         }
     }
 }
