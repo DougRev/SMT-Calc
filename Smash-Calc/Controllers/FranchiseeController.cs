@@ -1,5 +1,5 @@
-﻿using SmashModels.Franchisee;
-using SmashServices;
+﻿using CalcModels.Franchisee;
+using CalcServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,7 +49,7 @@ namespace Smash_Calc.Controllers
 
         public ActionResult Details(int id)
         {
-            var service = CreateFranchiseeServices();
+            var service = CreateFranchiseeService();
             var model = service.GetFranchiseeById(id);
             return View(model);
         }
@@ -86,6 +86,24 @@ namespace Smash_Calc.Controllers
 
             ModelState.AddModelError("", "Your Franchisee could not be updated.");
             return View(model);
+        }
+
+        [HttpPost]
+        [ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteFranchisee(int id)
+        {
+            var service = CreateFranchiseeService();
+            service.DeleteFranchisee(id);
+            TempData["SaveResult"] = "Your Franchisee was deleted.";
+
+            return RedirectToAction("Index");
+        }
+
+        private FranchiseeServices CreateFranchiseeService()
+        {
+            var service = new FranchiseeServices(userId);
+            return service;
         }
 
 }

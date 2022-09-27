@@ -15,7 +15,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Smash_Calc</RootNamespace>
     <AssemblyName>Smash-Calc</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -50,16 +50,14 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
@@ -104,6 +102,7 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
@@ -239,11 +238,19 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Franchise\Create.cshtml" />
+    <Content Include="Views\Franchise\Details.cshtml" />
+    <Content Include="Views\Franchise\Edit.cshtml" />
+    <Content Include="Views\Franchise\Delete.cshtml" />
+    <Content Include="Views\Franchisee\Create.cshtml" />
+    <Content Include="Views\Franchisee\Details.cshtml" />
+    <Content Include="Views\Franchisee\Edit.cshtml" />
+    <Content Include="Views\Franchisee\Delete.cshtml" />
+    <Content Include="Views\Franchisee\Index.cshtml" />
+    <Content Include="Views\Franchise\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Franchisee\" />
-    <Folder Include="Views\Franchise\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -259,17 +266,17 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SmashData\SmashData.csproj">
-      <Project>{8c32eaba-6a05-427e-a2a0-117e597b093b}</Project>
-      <Name>SmashData</Name>
+    <ProjectReference Include="..\CalcData\CalcData.csproj">
+      <Project>{32e91a25-d26c-4adf-b124-328d3d49fc98}</Project>
+      <Name>CalcData</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SmashModels\SmashModels.csproj">
-      <Project>{2eb0d0fc-e462-425e-81e3-c03a67ce66ff}</Project>
-      <Name>SmashModels</Name>
+    <ProjectReference Include="..\CalcModels\CalcModels.csproj">
+      <Project>{78f3588d-40cc-4790-a646-36cb13bfe7ae}</Project>
+      <Name>CalcModels</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SmashServices\SmashServices.csproj">
-      <Project>{54322c24-9891-476a-afed-ebbd7a180013}</Project>
-      <Name>SmashServices</Name>
+    <ProjectReference Include="..\CalcServices\CalcServices.csproj">
+      <Project>{074002b0-cc39-4600-84b7-3c9293b1ffc6}</Project>
+      <Name>CalcServices</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -1,0 +1,106 @@
+﻿@model CalcModels.Franchise.FranchiseDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>FranchiseDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FranchiseId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FranchiseId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FranchiseName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FranchiseName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.State)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.State)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Zips)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Zips)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedUtc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedUtc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedUtc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedUtc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.YearlySmashes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.YearlySmashes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.XferStation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.XferStation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DistanceBetweenClients)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DistanceBetweenClients)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DistanceToLandfill)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DistanceToLandfill)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DistanceToHauler)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DistanceToHauler)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

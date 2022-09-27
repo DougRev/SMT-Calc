@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "proOvNSxwWkRLvAid2oK24I+/qFVexPNlqiAKcZksSVz6Rwl6aOtwnrKoEQFdMg3Poaltpsh0cYVP+f2LvpIXA==",
+  "dgSpecHash": "TWeXXnqTpHQSW74hQuWARubziDpDaHa0uKlVag1pRpDDLY/wAfQ0jXn+RDn2Sjr3aPDvylF0qsLUa7QOXLCdlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Doug Revell\\source\\repos\\SMT-Calc\\SmashData\\SmashData.csproj",
+  "projectFilePath": "C:\\Users\\xXTur\\Source\\Repos\\SMT-Calc\\SmashData\\SmashData.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Doug Revell\\.nuget\\packages\\entityframework\\6.1.0\\entityframework.6.1.0.nupkg.sha512",
-    "C:\\Users\\Doug Revell\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
-    "C:\\Users\\Doug Revell\\.nuget\\packages\\microsoft.aspnet.identity.entityframework\\2.2.3\\microsoft.aspnet.identity.entityframework.2.2.3.nupkg.sha512",
-    "C:\\Users\\Doug Revell\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Doug Revell\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Doug Revell\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    "C:\\Users\\xXTur\\.nuget\\packages\\entityframework\\6.1.0\\entityframework.6.1.0.nupkg.sha512",
+    "C:\\Users\\xXTur\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
+    "C:\\Users\\xXTur\\.nuget\\packages\\microsoft.aspnet.identity.entityframework\\2.2.3\\microsoft.aspnet.identity.entityframework.2.2.3.nupkg.sha512",
+    "C:\\Users\\xXTur\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\xXTur\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\xXTur\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],
   "logs": [
     {

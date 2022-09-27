@@ -1,5 +1,4 @@
 ﻿using CalcData;
-using CalcModels.Franchise;
 using CalcModels.Franchisee;
 using System;
 using System.Collections.Generic;
@@ -59,7 +58,6 @@ namespace CalcServices
                         FranchiseeId = e.FranchiseeId,
                         OwnerFirst = e.OwnerFirst,
                         OwnerLast = e.OwnerLast,
-                        ModifiedUtc = e.ModifiedUtc
 
                     });
                 return query.ToList();

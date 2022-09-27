@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Doug Revell\\source\\repos\\SMT-Calc\\SmashData\\SmashData.csproj": {}
+    "C:\\Users\\xXTur\\Source\\Repos\\SMT-Calc\\SmashData\\SmashData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Doug Revell\\source\\repos\\SMT-Calc\\SmashData\\SmashData.csproj": {
+    "C:\\Users\\xXTur\\Source\\Repos\\SMT-Calc\\SmashData\\SmashData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Doug Revell\\source\\repos\\SMT-Calc\\SmashData\\SmashData.csproj",
+        "projectUniqueName": "C:\\Users\\xXTur\\Source\\Repos\\SMT-Calc\\SmashData\\SmashData.csproj",
         "projectName": "SmashData",
-        "projectPath": "C:\\Users\\Doug Revell\\source\\repos\\SMT-Calc\\SmashData\\SmashData.csproj",
-        "packagesPath": "C:\\Users\\Doug Revell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Doug Revell\\source\\repos\\SMT-Calc\\SmashData\\obj\\",
+        "projectPath": "C:\\Users\\xXTur\\Source\\Repos\\SMT-Calc\\SmashData\\SmashData.csproj",
+        "packagesPath": "C:\\Users\\xXTur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xXTur\\Source\\Repos\\SMT-Calc\\SmashData\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Doug Revell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xXTur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

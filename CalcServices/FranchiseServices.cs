@@ -23,6 +23,7 @@ namespace CalcServices
                 {
                     OwnerId = _userId,
                     FranchiseName = model.FranchiseName,
+                    FranchiseeId = model.FranchiseeId,
                     State = model.State,
                     Zips = model.Zips,
                     CreatedUtc = DateTime.Now,
@@ -49,6 +50,8 @@ namespace CalcServices
                 {
                     FranchiseId = entity.FranchiseId,
                     FranchiseName = entity.FranchiseName,
+                    State = entity.State,
+                    Zips = entity.Zips,
                     CreatedUtc = entity.CreatedUtc,
                     ModifiedUtc = entity.ModifiedUtc
                 };
@@ -98,7 +101,6 @@ namespace CalcServices
                 ctx.Franchise.Remove(entity);
                 return ctx.SaveChanges() == 1;
             }
-
         }
     }
 }

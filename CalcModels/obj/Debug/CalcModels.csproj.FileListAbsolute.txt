@@ -1,0 +1,6 @@
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\bin\Debug\CalcModels.dll
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\bin\Debug\CalcModels.pdb
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\obj\Debug\CalcModels.csproj.AssemblyReference.cache
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\obj\Debug\CalcModels.csproj.CoreCompileInputs.cache
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\obj\Debug\CalcModels.dll
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\obj\Debug\CalcModels.pdb

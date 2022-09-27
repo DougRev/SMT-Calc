@@ -1,6 +1,5 @@
-﻿using SmashModels.Franchise;
-using SmashModels.Franchisee;
-using SmashServices;
+﻿using CalcModels.Franchise;
+using CalcServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;

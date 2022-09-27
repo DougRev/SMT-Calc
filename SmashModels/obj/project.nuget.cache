@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FhNBPyzsXLFrKVgsYyvQ6BrBFq2yTH6kSR0Btkm3s6uBICNH6m6IkBtBdaAqxRg1Eqbx75QaH+Z5MD+uAofj7w==",
+  "dgSpecHash": "PyZ06iXK58J0xh7uZxBKTS7c2K8blRMbZtcKUDpIBsQuQD1QxpLyoJCS0wGE7xequ6d59lQvNzfUtGgES4VImw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Doug Revell\\source\\repos\\SMT-Calc\\SmashModels\\SmashModels.csproj",
+  "projectFilePath": "C:\\Users\\xXTur\\Source\\Repos\\SMT-Calc\\SmashModels\\SmashModels.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Doug Revell\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Doug Revell\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\xXTur\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\xXTur\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

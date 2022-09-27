@@ -8,3 +8,13 @@ C:\Users\Doug Revell\source\repos\SMT-Calc\SmashData\obj\Debug\netstandard2.0\Sm
 C:\Users\Doug Revell\source\repos\SMT-Calc\SmashData\obj\Debug\netstandard2.0\SmashData.csproj.CoreCompileInputs.cache
 C:\Users\Doug Revell\source\repos\SMT-Calc\SmashData\obj\Debug\netstandard2.0\SmashData.dll
 C:\Users\Doug Revell\source\repos\SMT-Calc\SmashData\obj\Debug\netstandard2.0\SmashData.pdb
+C:\Users\xXTur\Source\Repos\SMT-Calc\SmashData\bin\Debug\netstandard2.0\SmashData.deps.json
+C:\Users\xXTur\Source\Repos\SMT-Calc\SmashData\bin\Debug\netstandard2.0\SmashData.dll
+C:\Users\xXTur\Source\Repos\SMT-Calc\SmashData\bin\Debug\netstandard2.0\SmashData.pdb
+C:\Users\xXTur\Source\Repos\SMT-Calc\SmashData\obj\Debug\netstandard2.0\SmashData.csproj.AssemblyReference.cache
+C:\Users\xXTur\Source\Repos\SMT-Calc\SmashData\obj\Debug\netstandard2.0\SmashData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xXTur\Source\Repos\SMT-Calc\SmashData\obj\Debug\netstandard2.0\SmashData.AssemblyInfoInputs.cache
+C:\Users\xXTur\Source\Repos\SMT-Calc\SmashData\obj\Debug\netstandard2.0\SmashData.AssemblyInfo.cs
+C:\Users\xXTur\Source\Repos\SMT-Calc\SmashData\obj\Debug\netstandard2.0\SmashData.csproj.CoreCompileInputs.cache
+C:\Users\xXTur\Source\Repos\SMT-Calc\SmashData\obj\Debug\netstandard2.0\SmashData.dll
+C:\Users\xXTur\Source\Repos\SMT-Calc\SmashData\obj\Debug\netstandard2.0\SmashData.pdb

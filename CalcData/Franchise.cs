@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,9 +10,13 @@ namespace CalcData
 {
     public class Franchise
     {
+        [Key]
         public int FranchiseId { get; set; }
         public Guid OwnerId { get; set; }
+
+        [ForeignKey(nameof(Franchisee))]
         public int FranchiseeId { get; set; }
+        public virtual Franchisee Franchisee { get; set; }
         public string FranchiseName { get; set; }
         public string State { get; set; }
         public int Zips { get; set; }
