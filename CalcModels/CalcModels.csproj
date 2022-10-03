@@ -51,5 +51,11 @@
     <Compile Include="Franchise\FranchiseList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CalcData\CalcData.csproj">
+      <Project>{32e91a25-d26c-4adf-b124-328d3d49fc98}</Project>
+      <Name>CalcData</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

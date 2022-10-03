@@ -11,6 +11,9 @@ namespace CalcModels.Franchisee
         public int FranchiseeId { get; set; }
         public string OwnerFirst { get; set; }
         public string OwnerLast { get; set; }
+        public int FranchiseId { get; set; }
+        public string FranchiseName { get; set; }
+        public string State { get; set; }
         //public List<Franchise> FranchisesOwned { get; set; }
         public DateTimeOffset CreatedUtc { get; set; }
         public DateTimeOffset ModifiedUtc { get; set; }

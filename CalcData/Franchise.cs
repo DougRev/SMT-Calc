@@ -11,23 +11,20 @@ namespace CalcData
     public class Franchise
     {
         [Key]
-        public int FranchiseId { get; set; }
+        public int Id { get; set; }
         public Guid OwnerId { get; set; }
 
-        [ForeignKey(nameof(Franchisee))]
+        [ForeignKey("Franchisee")]
         public int FranchiseeId { get; set; }
         public virtual Franchisee Franchisee { get; set; }
+
+       // public Franchisee Franchisee { get; set; }
+       // public virtual ICollection<Franchisee> Franchisees { get; set; }
         public string FranchiseName { get; set; }
         public string State { get; set; }
         public int Zips { get; set; }
         public DateTimeOffset CreatedUtc { get; set; }
         public DateTimeOffset ModifiedUtc { get; set; }
-        public enum Compaction
-        {
-            Low,
-            Medium,
-            High
-        }
         public int YearlySmashes { get; set; }
         public bool XferStation { get; set; }
         public int DistanceBetweenClients { get; set; }

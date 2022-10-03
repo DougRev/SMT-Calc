@@ -10,6 +10,9 @@ namespace CalcModels.Franchise
     {
         public int FranchiseId { get; set; }
         public string FranchiseName { get; set; }
+        public int FranchiseeId { get; set; }
+        public string OwnerFirst { get; set; }
+        public string OwnerLast { get; set; }
         public string State { get; set; }
         public int Zips { get; set; }
         public DateTimeOffset CreatedUtc { get; set; }

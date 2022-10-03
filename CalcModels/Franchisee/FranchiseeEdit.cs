@@ -11,5 +11,6 @@ namespace CalcModels.Franchisee
         public int FranchiseeId { get; set; }
         public string OwnerFirst { get; set; }
         public string OwnerLast { get; set; }
+        public int FranchiseId { get; set; }
     }
 }

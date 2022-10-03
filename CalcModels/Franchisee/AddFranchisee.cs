@@ -8,7 +8,7 @@ namespace CalcModels.Franchisee
 {
     public class AddFranchisee
     {
-        public int FranchiseeId { get; set; }
+        public int? FranchiseeId { get; set; }
         public string OwnerFirst { get; set; }
         public string OwnerLast { get; set; }
         public DateTimeOffset CreatedUtc { get; set; }

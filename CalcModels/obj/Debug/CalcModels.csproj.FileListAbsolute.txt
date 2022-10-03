@@ -4,3 +4,13 @@ C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\obj\Debug\CalcModels.csproj.Asse
 C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\obj\Debug\CalcModels.csproj.CoreCompileInputs.cache
 C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\obj\Debug\CalcModels.dll
 C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\obj\Debug\CalcModels.pdb
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\bin\Debug\CalcData.dll
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\bin\Debug\EntityFramework.dll
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\bin\Debug\CalcData.pdb
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\bin\Debug\CalcData.dll.config
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\bin\Debug\EntityFramework.xml
+C:\Users\xXTur\source\repos\SMT-Calc\CalcModels\obj\Debug\CalcModels.csproj.CopyComplete

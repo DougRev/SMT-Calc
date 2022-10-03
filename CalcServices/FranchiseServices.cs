@@ -22,8 +22,8 @@ namespace CalcServices
                 new Franchise()
                 {
                     OwnerId = _userId,
-                    FranchiseName = model.FranchiseName,
                     FranchiseeId = model.FranchiseeId,
+                    FranchiseName = model.FranchiseName,
                     State = model.State,
                     Zips = model.Zips,
                     CreatedUtc = DateTime.Now,
@@ -36,7 +36,7 @@ namespace CalcServices
 
             using (var ctx = new ApplicationDbContext())
             {
-                ctx.Franchise.Add(entity);
+                ctx.Franchises.Add(entity);
                 return ctx.SaveChanges() == 1;
             }
         }
@@ -45,11 +45,14 @@ namespace CalcServices
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var entity = ctx.Franchise.Single(e => e.FranchiseId == id && e.OwnerId == _userId);
+                var entity = ctx.Franchises.Single(e => e.Id == id && e.OwnerId == _userId);
                 return new FranchiseDetail
                 {
-                    FranchiseId = entity.FranchiseId,
+                    FranchiseId = entity.Id,
                     FranchiseName = entity.FranchiseName,
+                    FranchiseeId = entity.FranchiseeId,
+                    OwnerFirst = entity.Franchisee.OwnerFirst,
+                    OwnerLast = entity.Franchisee.OwnerLast,
                     State = entity.State,
                     Zips = entity.Zips,
                     CreatedUtc = entity.CreatedUtc,
@@ -61,12 +64,14 @@ namespace CalcServices
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var query = ctx.Franchise.Where(e => e.OwnerId == _userId)
+                var query = ctx.Franchises.Where(e => e.OwnerId == _userId)
                     .Select(e => new FranchiseList
                     {
-                        FranchiseId = e.FranchiseId,
-                        FranchiseeId = e.FranchiseeId,
+                        FranchiseId = e.Id,
+                        FranchiseeId = e.Franchisee.Id,
                         FranchiseName = e.FranchiseName,
+                        OwnerFirst = e.Franchisee.OwnerFirst,
+                        OwnerLast = e.Franchisee.OwnerLast,
                         State = e.State,
                         CreatedUtc = e.CreatedUtc,
 
@@ -78,8 +83,9 @@ namespace CalcServices
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var entity = ctx.Franchise.Single(e => e.FranchiseId == model.FranchiseId);
+                var entity = ctx.Franchises.Single(e => e.Id == model.FranchiseId);
                 entity.FranchiseName = model.FranchiseName;
+                entity.Franchisee.Id = model.FranchiseeId;
                 entity.State = model.State;
                 entity.Zips = model.Zips;
                 entity.YearlySmashes = model.YearlySmashes;
@@ -97,8 +103,8 @@ namespace CalcServices
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var entity = ctx.Franchise.Single(e => e.FranchiseId == franchiseId && e.OwnerId == _userId);
-                ctx.Franchise.Remove(entity);
+                var entity = ctx.Franchises.Single(e => e.Id == franchiseId && e.OwnerId == _userId);
+                ctx.Franchises.Remove(entity);
                 return ctx.SaveChanges() == 1;
             }
         }

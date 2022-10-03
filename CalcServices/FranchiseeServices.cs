@@ -28,7 +28,7 @@ namespace CalcServices
 
             using (var ctx = new ApplicationDbContext())
             {
-                ctx.Franchisee.Add(entity);
+                ctx.Franchisees.Add(entity);
                 return ctx.SaveChanges() == 1;
             }
         }
@@ -37,13 +37,18 @@ namespace CalcServices
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var entity = ctx.Franchisee.Single(e => e.FranchiseeId == id && e.OwnerId == _userId);
+                var entity = ctx.Franchisees.Single(e => e.Id == id && e.OwnerId == _userId);
                 return new FranchiseeDetails
                 {
-                    FranchiseeId = entity.FranchiseeId,
+                    FranchiseeId = entity.Id,
                     OwnerFirst = entity.OwnerFirst,
                     OwnerLast = entity.OwnerLast,
-                    ModifiedUtc = entity.ModifiedUtc
+                    FranchiseId = entity.Franchise.Id,
+                    FranchiseName = entity.Franchise.FranchiseName,
+                    State = entity.Franchise.State,
+                    ModifiedUtc = entity.ModifiedUtc,
+                    //FranchiseId = this.GetFranchiseeById(id).FranchiseId
+                    
                 };
             }
         }
@@ -52,10 +57,10 @@ namespace CalcServices
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var query = ctx.Franchisee.Where(e => e.OwnerId == _userId)
+                var query = ctx.Franchisees.Where(e => e.OwnerId == _userId)
                     .Select(e => new FranchiseeList
                     {
-                        FranchiseeId = e.FranchiseeId,
+                        FranchiseeId = e.Id,
                         OwnerFirst = e.OwnerFirst,
                         OwnerLast = e.OwnerLast,
 
@@ -68,10 +73,12 @@ namespace CalcServices
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var entity = ctx.Franchisee.Single(e => e.FranchiseeId == model.FranchiseeId);
+                var entity = ctx.Franchisees.Single(e => e.Id == model.FranchiseeId);
                 entity.OwnerFirst = model.OwnerFirst;
                 entity.OwnerLast = model.OwnerLast;
+                entity.Franchise.Id = model.FranchiseId;
                 entity.ModifiedUtc = DateTimeOffset.UtcNow;
+                
 
                 return ctx.SaveChanges() == 1;
             }
@@ -81,8 +88,8 @@ namespace CalcServices
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var entity = ctx.Franchisee.Single(e => e.FranchiseeId == franchiseeId && e.OwnerId == _userId);
-                ctx.Franchisee.Remove(entity);
+                var entity = ctx.Franchisees.Single(e => e.Id == franchiseeId && e.OwnerId == _userId);
+                ctx.Franchisees.Remove(entity);
                 return ctx.SaveChanges() == 1;
             }
 

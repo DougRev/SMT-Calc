@@ -32,8 +32,8 @@ namespace CalcData
             return new ApplicationDbContext();
         }
 
-        public DbSet<Franchise> Franchise { get; set; }
-        public DbSet<Franchisee> Franchisee { get; set; }
+        public DbSet<Franchise> Franchises { get; set; }
+        public DbSet<Franchisee> Franchisees { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
